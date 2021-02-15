@@ -2,14 +2,44 @@
   font-family: Roboto;
 }
 
+
+.wrapper {
+  margin: auto; 
+  width: 77%;     
+}
+
+.body {
+  margin: 0;
+}
+
+.header {  
+  display: flex;
+  justify-content: space-between;  	
+}
+
+.logo, .menu {  
+  display: inline-block;  
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  padding: 40px 0;  
   font-family: PT Serif;
   font-size: 24px;
 }
 
 .menu__item {
+  padding: 0 13px;    	
   font-family: Roboto;
   font-size: 14px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
 
 .main-content__title {
@@ -25,4 +55,9 @@
 .main-content__button {
   font-family: Roboto;
   font-size: 14px;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
 }
