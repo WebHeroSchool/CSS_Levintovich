@@ -2,7 +2,6 @@
   font-family: Roboto;
 }
 
-
 .wrapper {
   margin: auto; 
   width: 77%;     
@@ -12,7 +11,8 @@
   margin: 0;
 }
 
-.header {  
+.header {
+  padding: 40px 0;	
   display: flex;
   justify-content: space-between;  	
 }
@@ -27,14 +27,35 @@
 }
 
 .logo {
-  padding: 40px 0;  
-  font-family: PT Serif;
-  font-size: 24px;
+  position: relative;  
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;    
+}
+
+.logo__circle {
+  position: absolute; 	
+  left: 0; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;  
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
 }
 
 .menu__item {
   padding: 0 13px;    	
-  font-family: Roboto;
+  font-family: pt_serif, arial, helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -43,7 +64,7 @@
 }
 
 .main-content__title {
-  font-family: PT Serif;
+  font-family: pt_serif, arial, helvetica, sans-serif;
   font-size: 50px;
 }
 
