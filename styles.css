@@ -14,6 +14,9 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 31px;
+  padding-left: 39px;
+  margin-top: 0;
   margin-bottom: 206px; 	
 }
 
@@ -21,15 +24,16 @@
   display: inline-block;  
 }
 
-.menu {
+.menu {  
   display: flex;
   align-items: center;
 }
 
 .logo {
-  position: relative;  
-  padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;    
+  position: relative;
+  padding-top: 1px;  
+  padding-left: 43px;
+  font: 700 24px/32px pt_serif, arial, helvetica, sans-serif;    
 }
 
 .logo__circle {
@@ -45,7 +49,7 @@
 
 .logo__circle_color_blue {
   left: 8px;
-  top: 56%;
+  top: 66%;
   background: #C8DBFB;
 }
 
@@ -111,7 +115,7 @@
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+  font: 700 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -121,12 +125,12 @@
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 22px/25px Roboto, arial, helvetica, sans-serif;
+  font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 18px 21px;
