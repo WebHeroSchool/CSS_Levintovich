@@ -124,7 +124,7 @@
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(to bottom, #FFF 50%, #ECF3FF 50%);  
 }
 
 
